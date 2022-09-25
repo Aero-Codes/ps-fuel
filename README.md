@@ -133,14 +133,9 @@ After it takes you to spot we need, copy this snippet and paste it over the few 
 ### Time to show you what it looks like!
 Here's a few showcased examples while using ps-fuel.
 
-#### Jerry can saving correct amount left:
-https://user-images.githubusercontent.com/91661118/169445831-babf91d3-86f1-47cc-ad12-4402dce977f9.mp4
-
-#### Buying and refueling jerry can:
-https://user-images.githubusercontent.com/91661118/169447776-815aae46-53e0-40cd-a9e5-347115dc1748.mp4
-
 #### Refueling vehicle:
-https://user-images.githubusercontent.com/91661118/169447249-b20abaca-fd1b-49ef-88c2-b6683b266f41.mp4
+https://streamable.com/h5oq0r
+
 
 # DMCA Protection Certificate
 ![image](https://user-images.githubusercontent.com/82112471/171916122-95422e07-0831-4d7e-bf27-c4b31945801f.png)
