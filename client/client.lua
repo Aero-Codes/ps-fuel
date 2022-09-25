@@ -219,7 +219,7 @@ end)
 RegisterNetEvent('ps-fuel:client:buyCanMenu', function(data)
 	local tax = GlobalTax(Config.fuelPrice)
 	local total = math.ceil(Config.fuelPrice + tax)
-	exports['qb-ui']:openMenu({
+	exports['qb-menu']:openMenu({
 		{
 			header = "Gas Pump",
 			txt = 'Select the kind of fuel you want to use',
@@ -261,7 +261,7 @@ RegisterNetEvent('ps-fuel:client:refuelCanMenu', function()
 	local fuelToAdd = tonumber(ammotoAdd/45)
 	if fuelToAdd ~= 0 then
 		price = math.floor(fuelToAdd * Config.fuelPrice)
-		exports['qb-ui']:openMenu({
+		exports['qb-menu']:openMenu({
 			{
 				header = "Gas Station",
 				txt = "The total cost of refueling the Gas can will be "..price.."$",
@@ -323,7 +323,7 @@ RegisterNetEvent('ps-fuel:client:PayFuel', function()
 		end
 	else
 		if CurFuel < 95 then
-			exports['qb-ui']:openMenu({
+			exports['qb-menu']:openMenu({
 				{
 					header = "Refuel Vehicle",
 					txt = 'Fuel Amount: '.. math.floor(GetFuel(vehicle)) .. ' | Total Cost: $'..total,
