@@ -9,6 +9,7 @@ A NoPixel inspired functionality fuel system that uses PolyZones that target spe
 * [qb-target](https://github.com/BerkieBb/qb-target)
 * [qb-menu](https://github.com/qbcore-framework/qb-menu)
 * [polyzone](https://github.com/qbcore-framework/PolyZone)
+* [renewed-phone](https://github.com/Renewed-Scripts/qb-phone/)
 
 <br>
 <br>
