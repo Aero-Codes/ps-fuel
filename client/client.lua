@@ -481,6 +481,7 @@ end)
 exports['qb-target']:AddTargetModel(props, {
 	options = {
 		{
+			num = 2,
 			type = "client",
 			event = "ps-fuel:client:returnNozzle",
 			icon = "fas fa-hand-holding",
@@ -490,6 +491,7 @@ exports['qb-target']:AddTargetModel(props, {
 			end,
 		},
 		{
+			num = 1,
 			type = "client",
 			event = "ps-fuel:client:buyCanMenu",
 			icon = "fas fa-gas-pump",
@@ -499,6 +501,17 @@ exports['qb-target']:AddTargetModel(props, {
 			end,
 		},
 		{
+			num = 3,
+			type = "client",
+			event = "ps-fuel:client:buyCan",
+			icon = "fas fa-gas-pump",
+			label = "Buy Jerry Can",
+			canInteract = function(entity)
+				return not isHoldingWeapon(GetHashKey("weapon_petrolcan"))
+			end
+		},
+		{
+			num = 4,
 			type = "client",
 			event = "ps-fuel:client:refuelCanMenu",
 			icon = "fas fa-gas-pump",
